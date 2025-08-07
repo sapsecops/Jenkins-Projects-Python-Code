@@ -11,9 +11,15 @@
         <div class="scrolling-text">
             <span>Congratulations on your Python Flask project!</span>
         </div>
-        <img src="{{ url_for('static', filename='images/jenkins-project.png') }}" alt="Flask Logo" class="logo">
-        <img src="{{ url_for('static', filename='images/jenkins.png') }}" alt="Python Logo" class="logo">
+
+        <div>
+            <p><strong>Hostname:</strong> {{ hostname }}</p>
+            <p><strong>IP Address:</strong> {{ ip_address }}</p>
+        </div>
+
+        <img src="{{ url_for('static', filename='images/SSO.png') }}" alt="Jenkins Project" class="logo">
     </div>
+
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
 </html>

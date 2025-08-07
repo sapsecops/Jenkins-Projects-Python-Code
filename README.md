@@ -1,7 +1,8 @@
 # Install python3
 ```
 sudo yum update -y
-sudo yum install python3 pip3
+sudo yum install python3 -y
+sudo yum install python3-pip -y
 ```
 
 # Start your Application
